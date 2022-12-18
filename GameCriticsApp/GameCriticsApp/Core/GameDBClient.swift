@@ -19,10 +19,10 @@ final class GameDBClient {
         }
     }
     
-//    static func getGameDetail(movieId: Int, completion: @escaping (GameDetailModel?, Error?) -> Void) {
-//        let urlString = BASE_URL + "/games/" + String(movieId) + "?" + "key=" + Constants.API_KEY
-//        handleResponse(urlString: urlString, responseType: GameDetailModel.self, completion: completion)
-//    }
+    static func getGameDetail(gameId: Int, completion: @escaping (GameDetailModel?, Error?) -> Void) {
+        let urlString = BASE_URL + "/games/" + String(gameId) + "?key=" + Constants.API_KEY
+        handleResponse(urlString: urlString, responseType: GameDetailModel.self, completion: completion)
+    }
     
     static private func handleResponse<T: Decodable>(urlString: String, responseType: T.Type, completion: @escaping (T?, Error?) -> Void) {
         AF.request(urlString).response { response in

@@ -13,14 +13,16 @@ protocol GameListViewModelProtocol {
     func getGameCount() -> Int
     func getGame(at index: Int) -> GameListModel?
     func getGameId(at index: Int) -> Int?
-    func searchGames(query: String) 
+    func searchGames(query: String)
+    func getGameReleased(at index: Int) -> String?
 }
 
 protocol GameListViewModelDelegate: AnyObject {
     func gamesLoaded()
 }
 
-final class GameListViewModel: GameListViewModelProtocol {
+final class GameListViewModel:GameListViewModelProtocol {
+    
     var delegate: GameListViewModelDelegate?
     private var games: [GameListModel]?
     
@@ -43,7 +45,13 @@ final class GameListViewModel: GameListViewModelProtocol {
     func getGameId(at index: Int) -> Int? {
         games?[index].id
     }
+    
+    func getGameReleased(at index: Int) -> String? {
+        games?[index].released
+    }
+    
     func searchGames(query: String) {
+        
     }
     
     
