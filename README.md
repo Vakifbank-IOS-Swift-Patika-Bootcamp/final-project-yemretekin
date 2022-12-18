@@ -5,6 +5,7 @@
 - Favorite Screen
 - Localization
 </div>
+
 ## Bilgiler
 <div align="left">
 - iPhone 14 Pro
@@ -12,9 +13,14 @@
 - iOS 16.1
 - API : rawg.io
 </div>
+
 ## Video
 
 <div align="center">
+
+
+https://user-images.githubusercontent.com/43580854/208317925-41b29c2d-2de5-414b-9c11-8394d1d68133.MP4
+
 
 </div>
 
