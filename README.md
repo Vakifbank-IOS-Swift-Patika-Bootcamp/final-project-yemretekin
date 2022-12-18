@@ -4,6 +4,7 @@
 - Search Bar
 - Favorite Screen
 - Localization
+- Local Notification
 </div>
 
 ## Bilgiler
