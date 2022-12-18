@@ -1,3 +1,28 @@
+## Eksikler
+<div align="left">
+- Unit Test
+- Search Bar
+- Favorite Screen
+- Localization
+</div>
+## Bilgiler
+<div align="left">
+- iPhone 14 Pro
+- Xcode 14.1
+- iOS 16.1
+- API : rawg.io
+</div>
+## Video
+
+<div align="center">
+
+</div>
+
+
+
+
+
+
 # final-project
 
 Vakıfbank IOS Swift Bootcamp Bitirme Projesi
