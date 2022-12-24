@@ -17,8 +17,6 @@ final class GameListViewController: BaseViewController {
         didSet{
             listTableView.delegate = self
             listTableView.dataSource = self
-            searchBar.becomeFirstResponder()
-            searchBar.delegate = self
             
         }
     }
