@@ -1,0 +1,6 @@
+framework module Pods_GameCriticsAppTests {
+  umbrella header "Pods-GameCriticsAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

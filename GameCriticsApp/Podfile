@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GameCriticsApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GameCriticsApp
+  pod 'Alamofire'
+  pod 'AlamofireImage', '~> 4.1'
+  pod 'MaterialActivityIndicator'
+  pod 'SwiftAlertView', '~> 2.2.1'
+
+  target 'GameCriticsAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GameCriticsAppUITests' do
+    # Pods for testing
+  end
+
+end
